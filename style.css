@@ -3,3 +3,123 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
+/* Header Styles */
+header{
+    padding: 50px 370px;
+}
+/* Nav bar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cmp img{
+    margin-right: 17px;
+}
+nav .cmp{
+    display: flex;
+    align-items: center;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 900;
+}
+.cmp span{
+    color: #FF5400;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 44px;
+}
+.nav-bar a:hover{
+    color: #FF5400;
+}
+/* Banner styles */
+.banner{
+    width: 1170px;
+    height: 500px;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    margin: 83px auto;
+    border-radius: 16px;
+
+}
+.banner-content .banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding: 106px 287px 24px;
+}
+.banner-content .banner-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 247px 48px;
+}
+.banner .banner-input{
+display: flex;
+gap: 24PX;
+}
+.banner-input{ 
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 48px 185px 0px;
+}
+.banner-input #btn{
+    width: 143px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.banner-input input{
+    border-radius: 8px;
+    border: none;
+    padding: 16px;
+}
+.when-input{
+    position: relative;
+}
+.when-input svg{
+    position: absolute;
+    top: 13px;
+    left: 150px;
+}
+.select-input{
+    position: relative;
+}
+.select-input svg{
+    position: absolute;
+    top: 13px;
+    left: 150px ;
+}
+.button-input{
+    position: relative;
+}
+.button-input svg{
+    position: absolute;
+    top: 14px;
+    right: 105px;
+}
+.button-input #btn{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 25px;
+}

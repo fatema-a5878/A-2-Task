@@ -33,7 +33,7 @@ nav .cmp{
     font-size: 18px;
     font-weight: 400;
 }
-.nav-bar li{
+.nav-bar  li{
     list-style: none;
 }
 .nav-bar ul{
@@ -64,7 +64,7 @@ nav .cmp{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 0px 247px 48px;
+    padding: 0px 247px 30px;
 }
 .banner .banner-input{
 display: flex;
@@ -122,4 +122,58 @@ gap: 24PX;
     padding-bottom: 16px;
     padding-right: 16px;
     padding-left: 25px;
+}
+/* Main Styles */
+/* SEction 1 Styles */
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 370px;
+}
+.sec-1-content .sec-1-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.sec-1-content .sec-1-sub-title{
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.sec-1-content li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+    width: 525px;
+    margin-left: 15px;
+}
+.sec-1-content .conclusion{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.sec-1-content input{
+    border: none;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.sec-1-content input:hover{
+    background-color: #FFF;
+    border: 2px solid #FF5400;
+    color: #FF5400;
 }
